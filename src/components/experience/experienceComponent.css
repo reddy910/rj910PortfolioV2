@@ -1,0 +1,154 @@
+.experience {
+  position: relative;
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 150px 0px;
+}
+
+.experienceTitle {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 32px;
+  margin: 10px 0px 40px;
+}
+.experienceTitle::before {
+  counter-increment: section 2;
+ 
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+.experienceTitle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color: rgb(48, 60, 85);
+  position: relative;
+  top: -5px;
+}
+.jobsList {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.jobTabList {
+  display: block;
+  position: relative;
+  width: max-content;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.tablistchild {
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  color: rgb(100, 255, 218);
+  text-decoration: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  border-left: 2px solid rgb(48, 60, 85);
+}
+
+.jobs__StyledHighlight {
+  display: block;
+  width: 2px;
+  height: 42px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  transform: translateY(0px);
+  background: rgb(100, 255, 218);
+  border-radius: 3px;
+  transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
+}
+.jobContent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 12px;
+  padding-left: 60px;
+}
+.jobTitle {
+  color: rgb(204, 214, 246);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.jobCompany {
+  color: rgb(100, 255, 218);
+}
+.jobContent a {
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  cursor: pointer;
+  color: rgb(100, 255, 218);
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.jobContent a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 1px;
+  position: relative;
+  bottom: 0.37em;
+  background-color: rgb(100, 255, 218);
+  opacity: 0.5;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.jobDetails {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: rgb(168, 178, 209);
+  margin-bottom: 30px;
+}
+.jobContent ul li::before {
+  position: absolute;
+  left: 0px;
+  color: rgb(100, 255, 218);
+}
+
+.workContainer {
+  max-width: 1000px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px auto;
+  padding: 150px 0px;
+}
+.workContainerTitle {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 32px;
+  margin: 10px 0px 40px;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Teko:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  justify-content: space-around;
+  color:  rgb(111, 192, 36);
+  display: inline-block;
+}
+.navbarHeaderContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: rgb(204, 214, 246);
+}
+.navContainer {
+  display: flex;
+}
+.navContainerUnorderList {
+  display: flex;
+  align-items: center;
+}
+.navContainerLink,li,a{
+  list-style: none;
+  margin: 0px 10px;
+  font-family: "Teko","Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(204, 214, 246);
+  text-decoration: none;
+}
+
+.navContainerLink:hover{
+  color: rgb(111, 192, 36);
+}
+.resumeButtonLink {
+    display: block;
+    color:  rgb(111, 192, 36);
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "Teko","Montserrat";
+    line-height: 1;
+    cursor: pointer;
+    margin-top: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(111, 192, 36);
+    border-image: initial;
+    border-radius: 1px;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.resumeButtonLink:hover{
+  background-color: rgb(136, 146, 176);
+}
+
+
+.side-navbar{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    color: rgb(168, 178, 209);
+}
+.socail-list{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.icon {
+  padding: 10px;
+}
+.socail-list::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+.side-email-link{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    color: rgb(168, 178, 209);
+}
+.email-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email__Link {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+}
+.side-email-link::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+}
+.hamburgerMenuNavContainer {
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition-timing-function: linear;
+  transition-duration: 0.15s;
+  transition-property: opacity, filter;
+  text-transform: none;
+  color: inherit;
+  background-color: transparent;
+  display: none;
+  overflow: visible;
+  margin: 0px -12px 0px 0px;
+  padding: 15px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+.hamburgerMenuNav {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+}
+.hamburgerMenuNav {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 24px;
+}
+.hamburgerMenuNavChild {
+  background-color: rgb(111, 192, 36);
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    transition-duration: 0.22s;
+    transition-property: transform;
+    transition-delay: 0s;
+    transform: rotate(0deg);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    border-radius: 3px;
+}
