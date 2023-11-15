@@ -1,19 +1,23 @@
-.experience {
-  position: relative;
-  max-width: 700px;
-  margin: 0px auto;
-  padding: 150px 0px;
-}
 
+.experience {
+  text-align: center;
+  max-width: 1000px;
+  margin: 50px auto 100px;
+}
 .experienceTitle {
-  position: relative;
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  width: 100%;
-  white-space: nowrap;
   font-size: 32px;
-  margin: 10px 0px 40px;
+}
+.experienceTitle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 300px;
+  background-color:rgb(136, 146, 176);
+  position: relative;
+  margin-top: 12px;
+  margin-left: 20px;
 }
 .experienceTitle::before {
   counter-increment: section 2;
@@ -25,20 +29,12 @@
   position: relative;
   bottom: 4px;
 }
-.experienceTitle::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 300px;
-  background-color: rgb(48, 60, 85);
-  position: relative;
-  top: -5px;
-}
+
 .jobsList {
   display: flex;
   align-items: flex-start;
-  position: relative;
 }
+
 .jobTabList {
   display: block;
   position: relative;
@@ -81,6 +77,8 @@
   border-radius: 3px;
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0.1s;
 }
+
+
 .jobContent {
   position: relative;
   width: 100%;
@@ -131,24 +129,8 @@
   color: rgb(100, 255, 218);
 }
 
-.workContainer {
-  max-width: 1000px;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0px auto;
-  padding: 150px 0px;
-}
-.workContainerTitle {
-  position: relative;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%;
-  white-space: nowrap;
-  font-size: 32px;
-  margin: 10px 0px 40px;
-}
+
+
+
+
+

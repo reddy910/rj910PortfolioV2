@@ -11,8 +11,8 @@ class AboutComponent extends Component {
         <div class="about-child">
           <div class="about-child-child">
             <div>
-              <p>Hello! I'm Raja, a software engineer based in Tampa, FL.</p>
-              <p>5+ years of experience in facilitating cutting edge engineering solutions and a wide range of web-based applications.
+              <p>Hello! I'm Raja, a software engineer based in Raleigh, NC.</p>
+              <p>8+ years of experience in facilitating cutting edge engineering solutions and a wide range of web-based applications.
               Proven ability to leverage full-stack knowledge and experience to develop interactive websites, applications, or anything that live on the Internet.</p>
               <p> My goal is to always build products that provide pixel-perfect, performant experiences.</p>
               <p>Apart from coding.I enjoy playing cricket and listening music.</p>
@@ -32,7 +32,7 @@ class AboutComponent extends Component {
             <li class="about__SkillName">Micro Services</li>
             <li class="about__SkillName">JavaScript (ES6+)</li>
             <li class="about__SkillName">HTML &amp; (S)CSS</li>
-            <li class="about__SkillName">React</li>
+            <li class="about__SkillName">React &amp; Angular</li>
             <li class="about__SkillName">SQL &amp; NoSQL </li>
             <li class="about__SkillName">Node.js</li>
           </ul>

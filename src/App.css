@@ -4,30 +4,11 @@
 *{
   margin:1px;
   padding: 2px;
-  background-color: rgb(1, 24, 3);
+  background-color: #1A2238;
 }
 
 
-.experienceContainer {
-  text-align: center;
-  max-width: 1000px;
-  margin: 50px auto 100px;
-}
-.experienceTitle{
-  display: flex;
-  align-items: center;
-  font-size: 32px;
-}
-.experienceTitle::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 300px;
-  background-color:rgb(136, 146, 176);
-  position: relative;
-  margin-top: 12px;
-  margin-left: 20px;
-}
+
 .workContainer {
   text-align: center;
   max-width: 1000px;

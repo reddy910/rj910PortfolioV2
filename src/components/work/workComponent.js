@@ -24,10 +24,10 @@ class workComponent extends Component {
                 <li>GitHub API</li>
               </ul>
               <div class="projectGitLink">
-                <a href="https://github.com/bchiang7" target="_blank" label="GitHub" class="icon">
+                <a href="https://github.com/" target="_blank" label="GitHub" class="icon">
                   <FaGithub />
                 </a>
-                <a href="https://github.com/bchiang7" target="_blank" label="GitHub" class="icon">
+                <a href="https://github.com/" target="_blank" label="GitHub" class="icon">
                   <FaExternalLinkAlt />
                 </a>
               </div>

@@ -10,8 +10,8 @@ class HeroComponent extends Component {
         <div class="herotext">
           <h5>Hi, Myself</h5>
           <h1>Raja Narasimha Reddy, Jaidi.</h1>
-          <h2>Web App Developer.</h2>
-          <h3>Tampa,FL.</h3>
+          <h2>Sr Software Engineer.</h2>
+          <h3>Raleigh,NC.</h3>
           <p> Experienced in facilitating cutting edge engineering solutions and ability to leverage FullStack knowledge in developing responsive websites. </p>
           <div class="email">
             <a href="mailto:reddy910@outlook.com" class="email-button">Reach me</a>
